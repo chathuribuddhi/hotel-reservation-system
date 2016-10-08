@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Page Description">
+        <meta name="author" content="CHATHURI">
+        <title>Reservation System</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-flat.css">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- Bootstrap Date Picker -->
+        <link rel="stylesheet" href="css/bootstrap-datepicker3.min.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"/></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+        <div class="banner-cover">
+            <img src="images/banner.jpg" alt="Image" id="banner">
+        </div>
+
+        <form action="" method="post" class="form-inline" role="form" id="availability-form">
+            <div class="container">
+            	<div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                        <div class="form-group">
+                            <label class="sr-only" for="checking-date">checkin date</label>
+                            <input type="text" class="form-control date-picker" name="" id="checking-date" placeholder="Checking Date">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                        <div class="form-group">
+                            <label class="sr-only" for="checkout-date">checkout date</label>
+                            <input type="text" class="form-control date-picker" name="" id="checkout-date" placeholder="Checkout Date">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                        <div class="form-group">
+                            <label class="sr-only" for="promo-code">promo code</label>
+                            <input type="text" class="form-control" name="" id="promo-code" placeholder="Promo Code">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <button type="submit" class="btn btn-primary">Check Availability</button>
+                    </div>
+            	</div>
+            </div>
+        </form>
+        <br/>
+        <div class="container">
+            <div class="static-content">
+                <div class="row hotel-description">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1>Welcome to Galle Hotels & Resorts</h1>
+                        <p>Welcome to Galle Hotels & Resorts, a chain of 14 distinct hotels and resorts in Sri
+                            Lanka and the Maldives, with a passion for style and a penchant for fun.. The diversity of
+                            the our way of doing things means we have unique experiences in each of the hotels
+                            from rooms on the beach to rooms in the ocean and views of the city, the jungle and horizons,
+                            so take your pick and we'll deliver. We create holistic, inspiring adventures and light-hearted
+                            fun for one-of-a-kind island adventures. There's so much to see and plenty to do in our tropical
+                            corner of the world, so why not do it the our way?</p>
+                    </div>
+                </div>
+
+                <div class="row promotion">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1>Special Promotions</h1>
+                        <hr>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#" class="promo-image">
+                            <img src="images/promo_images/itemImage_631.jpg" alt="promo-image">
+                            <div class="promo-text">
+                                15% off on Deluxe Rooms
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#" class="promo-image">
+                            <img src="images/promo_images/itemImage_771.jpg" alt="promo-image">
+                            <div class="promo-text">
+                                Complimentary Cuisine Offer!
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#" class="promo-image">
+                            <img src="images/promo_images/itemImage_1151.jpg" alt="promo-image">
+                            <div class="promo-text">
+                                10% off the Bed & Breakfast Rate
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#" class="promo-image">
+                            <img src="images/promo_images/itemImage_1171.jpg" alt="promo-image">
+                            <div class="promo-text">
+                                10% off the Bed & Breakfast Rate
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="row hotel-description">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1>The Best City Accommodation in Galle</h1>
+                        <p>Be it business, pleasure or a mix of both, the Galle Hotel stay is a great way to find relaxation,
+                            inspiration and spontaneity combined for the best Galle experience. Our 501 eco-friendly rooms
+                            come with a unique urban atmosphere, combining the Presidential, Penthouse, Apartment, Executive,
+                            Premium and Courtyard Suites, together with Deluxe, Premium and Executive level rooms, each
+                            offering distinct experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/><br/>
+        <div class="footer">
+            &copy; Galle Hotels and Resorts 2016 by Chathuri Buddhika
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Bootstrap Date Picker -->
+        <script src="js/bootstrap-datepicker.min.js"></script>
+
+        <script>
+            $('.date-picker').datepicker({
+                format: "dd/mm/yyyy",
+                weekStart: 1,
+                autoclose: true,
+                todayHighlight: true,
+                startDate: 'today'
+            });
+
+            $('#checking-date').change(function () {
+                var date = new Date($('#checking-date').datepicker('getDate'));
+                date.setDate(date.getDate() + 1);
+                $('#checkout-date').datepicker('setStartDate',date);
+            })
+
+        </script>
+
+    </body>
+</html>

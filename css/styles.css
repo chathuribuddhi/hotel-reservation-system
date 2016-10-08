@@ -1,0 +1,147 @@
+@import "../fonts/Catamaran/css.css";
+
+html, body, a{
+    font-family: 'Catamaran', sans-serif !important;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #351251 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+nav a{
+    color: white !important;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+}
+
+.navbar-nav li a:hover{
+    background-color: #55157c !important;
+}
+
+#banner{
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 760px) {
+    #banner{
+        height: 204px;
+        width: auto;
+    }
+
+    .banner-cover{
+        overflow: hidden;
+    }
+}
+
+#availability-form .form-group,
+#availability-form input,
+#availability-form button{
+    width: 100% !important;
+}
+
+#availability-form{
+    background-color: #55157c !important;
+    padding: 20px 0 5px 0;
+}
+
+#availability-form input,
+#availability-form button{
+    margin-bottom: 15px !important;
+}
+
+.hotel-description p{
+    color: #555555;
+}
+
+.hotel-description h1,
+.promotion h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #351251;
+}
+
+.hotel-description h1{
+    text-align: center;
+}
+
+.promotion h1{
+    margin-bottom: 5px;
+}
+
+.promotion hr{
+    border-top: 1px solid #351251;
+    margin-top: 0;
+}
+
+.promo-image{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.promo-image:hover{
+    text-decoration: none;
+}
+
+.promo-image img{
+    width: 100%;
+}
+
+.promo-text{
+    text-align: center;
+    font-weight: 600;
+    background-color: #351251;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.footer{
+    text-align: center;
+    background-color: #351251;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.room-image{
+    vertical-align: top;
+    padding: 5px;
+    width: 25%;
+}
+
+.room-content{
+    width: 74%;
+}
+
+.room-content h4{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.room-image,
+.room-content{
+    display: inline-block;
+}
+
+.room-box{
+    background-color: #f3f3f3;
+}
+
+.hover{
+    margin-bottom: 30px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.hover img{
+    width: 100%;
+}
